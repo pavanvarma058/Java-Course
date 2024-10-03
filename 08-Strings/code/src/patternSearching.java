@@ -17,4 +17,14 @@ public class patternSearching {
             pos = txt.indexOf(pos, pos+1);
         }
     }
+
+    public static int findPattern(String s, String p){
+        // code here
+        if(s.contains(p)){
+            return s.indexOf(p);
+        } else {
+            return -1;
+        }
+
+    }
 }
